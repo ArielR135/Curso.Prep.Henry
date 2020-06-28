@@ -5,11 +5,11 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  if(x > y) {
+  return Math.max(x,y);
+  /*if(x > y) {
     return x;
   }
-  return y;
-  //return Math.max(x,y);
+  return y;*/
 }
 
 function saludo(idioma) {
@@ -19,16 +19,7 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if(idioma === 'aleman') {
-    return 'Guten Tag!';
-  } else if (idioma === 'mandarin') {
-    return 'Ni Hao!';
-  } else if (idioma === 'ingles') {
-    return 'Hello!';
-  } else {
-    return 'Hola!';
-  }
-  /*switch(idioma) {
+  switch(idioma) {
     case "aleman":
       return "Guten Tag!";
       break;
@@ -40,6 +31,15 @@ function saludo(idioma) {
       break;
     default:
       return "Hola!";
+  }
+  /*if(idioma === 'aleman') {
+    return 'Guten Tag!';
+  } else if (idioma === 'mandarin') {
+    return 'Ni Hao!';
+  } else if (idioma === 'ingles') {
+    return 'Hello!';
+  } else {
+    return 'Hola!';
   }*/
 }
 
