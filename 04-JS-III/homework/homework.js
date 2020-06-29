@@ -23,17 +23,18 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var nuevoArray = [];
+  // var nuevoArray = [];
   for(var i = 0; i < array.length; i++) {
-    nuevoArray[i] = array[i] + 1;
+    array[i] = array[i] + 1;
   }
-  return nuevoArray;
+  return array;
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+  // array[array.length] = elemento;
   array.push(elemento);
   return array;
 }
@@ -53,6 +54,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  // return palabras.join(' ');
   var string = palabras[0];
   for (var i = 1; i <= palabras.length - 1; i++) {
     string = string + " " + palabras[i];
@@ -87,6 +89,7 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  // return agregarNumeros(resultadosTest) / resultadosTest.length;
   var promedio = 0;
   for (var i = 0; i <= resultadosTest.length - 1; i++) {
     promedio = promedio + resultadosTest[i];

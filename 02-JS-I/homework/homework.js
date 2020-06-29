@@ -76,6 +76,7 @@ function tienenMismaLongitud(str1, str2) {
   } else {
     return false;
   }
+  // return str1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
@@ -122,6 +123,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  // return num * num * num;
   return Math.pow(num,3);
 }
 
@@ -135,6 +137,13 @@ function redondearNumero(num) {
   // Redondea "num" y devuélvelo
   // Tu código:
   return Math.round(num);
+  // var resto = num % 1;
+  // var entero = num - resto;
+  // if (resto >= 0.5) {
+  //   return entero + 1;
+  // } else {
+  //   return entero;
+  // }
 }
 
 function redondearHaciaArriba(num) {
@@ -154,8 +163,8 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-    //return nombre + " " + apellido;
-    return `${nombre} ${apellido}`;
+  // return nombre + " " + apellido;
+  return `${nombre} ${apellido}`;
 }
 
 function obtenerSaludo(nombre) {

@@ -6,10 +6,10 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   return Math.max(x,y);
-  /*if(x > y) {
+  /* if(x > y) {
     return x;
   }
-  return y;*/
+  return y; */
 }
 
 function saludo(idioma) {
@@ -32,7 +32,7 @@ function saludo(idioma) {
     default:
       return "Hola!";
   }
-  /*if(idioma === 'aleman') {
+  /* if(idioma === 'aleman') {
     return 'Guten Tag!';
   } else if (idioma === 'mandarin') {
     return 'Ni Hao!';
@@ -40,7 +40,7 @@ function saludo(idioma) {
     return 'Hello!';
   } else {
     return 'Hola!';
-  }*/
+  } */
 }
 
 function esDiezOCinco(numero) {
@@ -74,11 +74,11 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  /*if(numero % 15 === 0) return 'fizzbuzz';
+  /* if(numero % 15 === 0) return 'fizzbuzz';
   if(numero % 3 === 0) return 'fizz';
   if(numero % 5 === 0) return 'buzz';
-  return numero;*/
-  //if (numero % 15 === 0) {
+  return numero; */
+  // if (numero % 15 === 0) {
   if (numero % 3 === 0 && numero % 5 === 0) {
     return "fizzbuzz";
   } else if (numero % 3 === 0) {
